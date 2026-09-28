@@ -25,7 +25,7 @@ for message in st.session_state.chat_history:
 
 # llm initiate
 llm = ChatGoogleGenerativeAI(
-    model="gemini-3.8-flash",
+    model="gemini-2.5-flash",
     temperature=0.0,
 )
 
